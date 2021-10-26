@@ -1,6 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { v4 as uuidv4 } from 'uuid';
-import { AdjeminPay } from 'https://api.adjeminpay.net/release/seamless/latest/adjeminpay.min.js';
+// import { AdjeminPay } from 'https://api.adjeminpay.net/release/seamless/latest/adjeminpay.min.js';
+import { AdjeminPay } from '';
 
 @Component({
   selector: 'app-adjeminpay',
