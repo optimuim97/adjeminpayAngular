@@ -1,0 +1,33 @@
+<div class="container">
+
+
+
+    <div id="result">
+        <h1 id="result-title"></h1>
+        <p id="result-message"></p>
+        <p id="result-status"></p>
+    </div>
+
+    <input type="hidden" id="amount" value="{{ amount }}">
+    <input type="hidden" id="currency" value="{{ currency }}">
+    <!-- NB: La longeur maximum d'un id de transaction est de 191 caractères -->
+
+    <input type="hidden" id="transaction_id" value="{{ transactionId }}">
+    <!-- Champ personnalisé où vous pourrez définir des informations supplémentaires à votre transaction  -->
+    <!-- le champ custom est facultatif -->
+    <input type="hidden" id="custom_field" value="custom text">
+
+    <input type="hidden" id="designation" value="Réservation Pour Consultation">
+    <input type="hidden" value="{{ signature }}" id="adp_signature">
+
+
+    <h1 class="text-center ">AdjeminPay</h1>
+    <div class="d-flex justify-content-center mt-3 ">
+        <button id="payBtn " (click)="initPayment() " class="btn btn-success border-radius ">
+          Payer
+        </button>
+    </div>
+
+
+
+</div>
