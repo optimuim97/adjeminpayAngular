@@ -561,7 +561,7 @@ AdjeminPay = function() {
                         };
                         checkHasError = true;
                     }
-                    console.log(value);
+                    // console.log(value);
                     if (value.length < 1) {
                         responseMessage = {
                             code: "Erreur transaction_id",
@@ -1365,6 +1365,7 @@ AdjeminPay = function() {
 Element.prototype.remove = function() {
     this.parentElement.removeChild(this);
 };
+
 NodeList.prototype.remove = HTMLCollection.prototype.remove = function() {
     for (var i = this.length - 1; i >= 0; i--) {
         if (this[i] && this[i].parentElement) {

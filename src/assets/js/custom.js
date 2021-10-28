@@ -1,7 +1,9 @@
-function myTest() {
-    alert('Welcome to custom js');
-}
+// alert('test est bon !');
 
-$(function() {
-    alert('Hello, custom js');
-});
+// function myTest() {
+//     alert('Welcome to custom js');
+// }
+
+// $(function() {
+//     alert('Hello, custom js');
+// });

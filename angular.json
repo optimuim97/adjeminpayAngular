@@ -33,8 +33,8 @@
                         "scripts": [
                             "node_modules/bootstrap/dist/js/bootstrap.js",
                             "node_modules/jquery/dist/jquery.js",
-                            "src/assets/adjeminpay.js",
-                            "src/assets/js/custom.js"
+                            "src/assets/js/custom.js",
+                            "src/assets/js/adjeminpay.js",
                         ]
                     },
                     "configurations": {

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-declare const myTest: any;
+// declare const myTest: any;
 
 @Component({
   selector: 'app-root',
@@ -10,8 +10,8 @@ declare const myTest: any;
 export class AppComponent {
   title = 'AdjAngular';
 
-  onClick() {
-    myTest();
-  }
+  // onClick() {
+  //   myTest();
+  // }
 
 }
